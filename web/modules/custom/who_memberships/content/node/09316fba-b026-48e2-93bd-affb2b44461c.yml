@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 09316fba-b026-48e2-93bd-affb2b44461c
+  bundle: company
+  default_langcode: en
+  depends:
+    33aa57e3-8d77-4ae5-8cef-3a15f3fa803b: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ABC
+  created:
+    -
+      value: 1691906808
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_account_id:
+    -
+      entity: 33aa57e3-8d77-4ae5-8cef-3a15f3fa803b
+  field_account_type:
+    -
+      value: HEALTHSYSTEM
+  field_address:
+    -
+      value: '<p>1, Pond Street</p><p>Yorktown Heights, New york</p>'
+      format: basic_html
+  field_country:
+    -
+      value: us
+  field_wesbsite1:
+    -
+      uri: 'http://www.abc.org'
+      title: 'http://www.abc.org'
+      options: {  }
+  field_zip_postal:
+    -
+      value: 10001

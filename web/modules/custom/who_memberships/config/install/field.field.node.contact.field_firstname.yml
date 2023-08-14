@@ -1,0 +1,23 @@
+uuid: 0fca1104-384e-4fd2-bd45-faa07c262857
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_firstname
+    - node.type.contact
+  module:
+    - text
+_core:
+  default_config_hash: 66ComJad2AswPWCJwqPigRPpPKFjnpL4M4dPJ2d8ezI
+id: node.contact.field_firstname
+field_name: field_firstname
+entity_type: node
+bundle: contact
+label: FirstName
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

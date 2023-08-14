@@ -1,0 +1,21 @@
+uuid: 25b12ace-402e-4af8-b3bf-b008c2b4ce9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: Z77MKDg3Nw5uUAoRIy0Ir1B8tFRS5qVJkSx7kKZZPsk
+id: node.field_address
+field_name: field_address
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

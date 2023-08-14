@@ -1,0 +1,23 @@
+uuid: aab43509-99d1-4b0e-8470-d0b87fa7dc03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_account_id
+    - node.type.subscription
+_core:
+  default_config_hash: YNphfGNbIdoK468RyuZrjnjJc3on5BWbs8by93foZBc
+id: node.subscription.field_account_id
+field_name: field_account_id
+entity_type: node
+bundle: subscription
+label: 'Account ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: 0d14f095-88bf-44cf-ac82-86412932a00a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_account_type
+    - node.type.company
+  module:
+    - options
+_core:
+  default_config_hash: EGyqxTgUfxeDc5yQt_DNrR0Xlvg_ChSJesp6WwSXJEI
+id: node.company.field_account_type
+field_name: field_account_type
+entity_type: node
+bundle: company
+label: Account_Type
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: HEALTHSYSTEM
+default_value_callback: ''
+settings: {  }
+field_type: list_string

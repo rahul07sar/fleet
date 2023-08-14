@@ -1,0 +1,40 @@
+uuid: d60ddc5a-f370-4487-a814-1250abef4b09
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contact.body
+    - field.field.node.contact.field_company
+    - field.field.node.contact.field_emailaddress
+    - field.field.node.contact.field_firstname
+    - field.field.node.contact.field_lastname
+    - node.type.contact
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: Olshz-VOH88sEF725CQeiPsaFFjPyj4VOTl-o98Izi4
+id: node.contact.teaser
+targetEntityType: node
+bundle: contact
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_company: true
+  field_emailaddress: true
+  field_firstname: true
+  field_lastname: true

@@ -1,0 +1,34 @@
+uuid: d7c8acc3-2e9f-4a74-8f2f-b4301b934b92
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.company.field_account_id
+    - field.field.node.company.field_account_type
+    - field.field.node.company.field_address
+    - field.field.node.company.field_country
+    - field.field.node.company.field_wesbsite1
+    - field.field.node.company.field_zip_postal
+    - node.type.company
+  module:
+    - user
+_core:
+  default_config_hash: Nxo32u-QoPDwBF4Ba3lswes6FmxqmlthpzvI1x4B1N0
+id: node.company.teaser
+targetEntityType: node
+bundle: company
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_account_id: true
+  field_account_type: true
+  field_address: true
+  field_country: true
+  field_wesbsite1: true
+  field_zip_postal: true

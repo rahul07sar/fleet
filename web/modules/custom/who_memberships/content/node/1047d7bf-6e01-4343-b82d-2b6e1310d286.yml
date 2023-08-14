@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1047d7bf-6e01-4343-b82d-2b6e1310d286
+  bundle: product
+  default_langcode: en
+  depends:
+    33aa57e3-8d77-4ae5-8cef-3a15f3fa803b: user
+    5b5175e3-24d0-42cb-acb4-2c333184ce8c: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Product A'
+  created:
+    -
+      value: 1691907212
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_memberships:
+    -
+      entity: 33aa57e3-8d77-4ae5-8cef-3a15f3fa803b
+    -
+      entity: 5b5175e3-24d0-42cb-acb4-2c333184ce8c
+  field_product_id:
+    -
+      value: '300000001139280'
+      format: basic_html

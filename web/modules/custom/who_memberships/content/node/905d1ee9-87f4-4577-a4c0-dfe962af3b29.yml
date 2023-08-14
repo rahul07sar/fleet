@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 905d1ee9-87f4-4577-a4c0-dfe962af3b29
+  bundle: subscription
+  default_langcode: en
+  depends:
+    5b5175e3-24d0-42cb-acb4-2c333184ce8c: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Product A Mary Lamb ABC'
+  created:
+    -
+      value: 1691907300
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_account_id:
+    -
+      entity: 5b5175e3-24d0-42cb-acb4-2c333184ce8c
+  field_subscription_status:
+    -
+      value: true

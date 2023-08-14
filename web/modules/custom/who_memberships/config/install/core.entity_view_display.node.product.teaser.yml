@@ -1,0 +1,26 @@
+uuid: 8d78e15e-a43f-4e51-8bc0-36dfad5aadaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product.field_memberships
+    - field.field.node.product.field_product_id
+    - node.type.product
+  module:
+    - user
+_core:
+  default_config_hash: dl75dqKmFtT8CYrASbA4CTrTt8II5tKgf8m6rvCEPFA
+id: node.product.teaser
+targetEntityType: node
+bundle: product
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_memberships: true
+  field_product_id: true

@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5f5bd2be-dc24-41dc-a228-764a8808692e
+  bundle: subscription
+  default_langcode: en
+  depends:
+    33aa57e3-8d77-4ae5-8cef-3a15f3fa803b: user
+    5c34ed0c-5346-43bc-9646-c3e716bdf436: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Product B Jane Doe ABC'
+  created:
+    -
+      value: 1691907891
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_account_id:
+    -
+      entity: 33aa57e3-8d77-4ae5-8cef-3a15f3fa803b
+  field_product_id_ref:
+    -
+      entity: 5c34ed0c-5346-43bc-9646-c3e716bdf436
+  field_subscription_status:
+    -
+      value: true

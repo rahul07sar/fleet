@@ -1,0 +1,23 @@
+uuid: 5664935c-387e-4d4a-9b7b-ffc099e7950e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.company
+  module:
+    - text
+_core:
+  default_config_hash: 3jHnBX0dfh2bvkD3CLLQajY4lpXpJ80wxOJf8VrJGjY
+id: node.company.field_address
+field_name: field_address
+entity_type: node
+bundle: company
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

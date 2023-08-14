@@ -1,0 +1,20 @@
+uuid: a6221808-1150-462e-bd5d-115c1e92e30d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: ibMCwQmRbxSj1jjPWFuIrDMyHSFChOE87XDURuhNj00
+name: CONTACT
+type: contact
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

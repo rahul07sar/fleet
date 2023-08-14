@@ -1,0 +1,31 @@
+uuid: e70ad3eb-0d97-445a-9804-623de62dd4c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_memberships
+    - node.type.product
+_core:
+  default_config_hash: wuxL-JOelplRyzP5-IDVFujBdbvSiWfoUg_PakHCRuU
+id: node.product.field_memberships
+field_name: field_memberships
+entity_type: node
+bundle: product
+label: Members
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

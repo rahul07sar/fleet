@@ -1,0 +1,20 @@
+uuid: 8b2dc483-8b44-45c8-a7eb-280c516d4b0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ngvjq7pcH18gKbEtMLxOpH0EyfzhQeoEXAezEeMrcMw
+id: node.field_emailaddress
+field_name: field_emailaddress
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

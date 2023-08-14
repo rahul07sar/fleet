@@ -1,0 +1,80 @@
+uuid: 1401021a-e310-474b-adc8-c7477fd1e3f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.company.field_account_id
+    - field.field.node.company.field_account_type
+    - field.field.node.company.field_address
+    - field.field.node.company.field_country
+    - field.field.node.company.field_wesbsite1
+    - field.field.node.company.field_zip_postal
+    - node.type.company
+  module:
+    - link
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: PuTBxx4WHHkViW33irIWARZahxBMmZVLxOZBXaNnguA
+id: node.company.default
+targetEntityType: node
+bundle: company
+mode: default
+content:
+  field_account_id:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_account_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_address:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_country:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_wesbsite1:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_zip_postal:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

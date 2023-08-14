@@ -1,0 +1,32 @@
+uuid: c8cb9c6b-a194-4aad-99b6-96e7e3969b28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_subscribed_to
+    - node.type.subscription
+  module:
+    - user
+_core:
+  default_config_hash: sJkekN99tOP_pKNq8YNHATw1Kv-tvaZemB_Ehbq8i5A
+id: user.user.field_subscribed_to
+field_name: field_subscribed_to
+entity_type: user
+bundle: user
+label: 'Subscribed to'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      subscription: subscription
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: product
+field_type: entity_reference

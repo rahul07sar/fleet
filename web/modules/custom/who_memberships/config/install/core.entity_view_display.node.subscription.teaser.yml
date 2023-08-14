@@ -1,0 +1,30 @@
+uuid: a624efbb-b03c-469a-89ca-2339f48fa18b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.subscription.field_account_id
+    - field.field.node.subscription.field_product_id_ref
+    - field.field.node.subscription.field_subscription_status
+    - field.field.node.subscription.field_termination_date
+    - node.type.subscription
+  module:
+    - user
+_core:
+  default_config_hash: g0rmPOuqtebpLNFiD5xljzJvQuiaROnPVisJt55HaxI
+id: node.subscription.teaser
+targetEntityType: node
+bundle: subscription
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_account_id: true
+  field_product_id_ref: true
+  field_subscription_status: true
+  field_termination_date: true

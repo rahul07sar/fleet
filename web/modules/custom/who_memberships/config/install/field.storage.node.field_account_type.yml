@@ -1,0 +1,32 @@
+uuid: 5b2b9bcb-0b5e-436c-9680-eaee9a6db816
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: xbZ5VezaYn7VDlCOXleNhdSEKUARji0DRtjmA7Cgzz0
+id: node.field_account_type
+field_name: field_account_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: HEALTHSYSTEM
+      label: HEALTHSYSTEM
+    -
+      value: HEALTHSYSTEM1
+      label: HEALTHSYSTEM1
+    -
+      value: HEALTHSYSTE2
+      label: HEALTHSYSTE2
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

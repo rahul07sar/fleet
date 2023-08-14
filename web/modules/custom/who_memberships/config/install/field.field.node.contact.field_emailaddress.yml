@@ -1,0 +1,21 @@
+uuid: 3f42458b-1131-42ef-8556-22701519152d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_emailaddress
+    - node.type.contact
+_core:
+  default_config_hash: hn5FyosehqZainFQtfv2tMMgi_q8hDI-y48XvGTovoU
+id: node.contact.field_emailaddress
+field_name: field_emailaddress
+entity_type: node
+bundle: contact
+label: EmailAddress
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

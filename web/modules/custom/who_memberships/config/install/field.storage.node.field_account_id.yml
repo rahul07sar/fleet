@@ -1,0 +1,22 @@
+uuid: 80e74053-7a67-4da0-a016-660fbd2853ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+_core:
+  default_config_hash: HJTTyNze9dnYJ8togTedZPXHtI49GQ1UBleUXCkk4Hg
+id: node.field_account_id
+field_name: field_account_id
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

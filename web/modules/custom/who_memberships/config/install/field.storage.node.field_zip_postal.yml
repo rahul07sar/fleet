@@ -1,0 +1,22 @@
+uuid: db3d5d0e-530d-4ade-827b-2328fe740459
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 3iAUErJlyxox3ZJq22Naq1Ql3e1CvaNy44xCKf2N66w
+id: node.field_zip_postal
+field_name: field_zip_postal
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

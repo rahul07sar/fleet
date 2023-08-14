@@ -1,0 +1,29 @@
+uuid: 2d39df60-bb27-4adc-a9fb-b18d9257f9ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: qcAc574zsTWOH7PI1qRTjO6wcBKudq42sETG2wy3yBw
+id: node.field_country
+field_name: field_country
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: us
+      label: US
+    -
+      value: in
+      label: India
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

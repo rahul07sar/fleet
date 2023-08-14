@@ -1,0 +1,20 @@
+uuid: 486fa1f2-4703-4878-ad3e-18be774bd8b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: QMuz-tQVakDRTZ6pPjk_0xIUMti_GRYt1gNC7VosU-k
+name: PRODUCT
+type: product
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

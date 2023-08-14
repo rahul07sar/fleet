@@ -1,0 +1,25 @@
+uuid: 66fd7513-9d2a-4f2d-9bb2-76017ef07c15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_zip_postal
+    - node.type.company
+_core:
+  default_config_hash: 4i81JDONEOgX3ApyeUGKmBgHuRp_7ptSdzs_ZtCjbmM
+id: node.company.field_zip_postal
+field_name: field_zip_postal
+entity_type: node
+bundle: company
+label: Zip_Postal
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
