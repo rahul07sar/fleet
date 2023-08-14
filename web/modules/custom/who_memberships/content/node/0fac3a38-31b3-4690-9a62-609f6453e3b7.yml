@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0fac3a38-31b3-4690-9a62-609f6453e3b7
+  bundle: contact
+  default_langcode: en
+  depends:
+    09316fba-b026-48e2-93bd-affb2b44461c: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 0031U00000OcJXzQAC
+  created:
+    -
+      value: 1691905224
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>0031U00000OcJXzQAC</p>'
+      format: basic_html
+      summary: ''
+  field_company:
+    -
+      entity: 09316fba-b026-48e2-93bd-affb2b44461c
+  field_emailaddress:
+    -
+      value: marylamb@gmail.com
+  field_firstname:
+    -
+      value: Mary
+      format: basic_html
+  field_lastname:
+    -
+      value: Lamb
+      format: basic_html

@@ -1,0 +1,25 @@
+uuid: 131fb499-88c0-453b-8752-375dfe1e377e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subscription_status
+    - node.type.subscription
+_core:
+  default_config_hash: YTRcXAs8j7PQD-Vad-HivOA31BMFpgKqz3Jiz3dvn_A
+id: node.subscription.field_subscription_status
+field_name: field_subscription_status
+entity_type: node
+bundle: subscription
+label: 'Subscription Status'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Active
+  off_label: Terminated
+field_type: boolean

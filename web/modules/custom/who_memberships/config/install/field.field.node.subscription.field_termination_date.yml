@@ -1,0 +1,23 @@
+uuid: 68c22835-b71d-4fd4-8edf-b55d6c170fe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_termination_date
+    - node.type.subscription
+  module:
+    - datetime
+_core:
+  default_config_hash: 6bMMs6JrDY15UFPhVFj6f5tt-BC7T1sF2ACZbJy_Ltk
+id: node.subscription.field_termination_date
+field_name: field_termination_date
+entity_type: node
+bundle: subscription
+label: 'Termination Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

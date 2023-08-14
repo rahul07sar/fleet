@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b45badfa-b954-4d13-a72c-9136548bd49e
+  bundle: subscription
+  default_langcode: en
+  depends:
+    33aa57e3-8d77-4ae5-8cef-3a15f3fa803b: user
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Product A Jane Doe ABC'
+  created:
+    -
+      value: 1691907300
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_account_id:
+    -
+      entity: 33aa57e3-8d77-4ae5-8cef-3a15f3fa803b
+  field_subscription_status:
+    -
+      value: false
+  field_termination_date:
+    -
+      value: '2023-08-01T13:47:30'

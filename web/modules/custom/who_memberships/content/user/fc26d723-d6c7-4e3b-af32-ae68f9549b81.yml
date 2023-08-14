@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: fc26d723-d6c7-4e3b-af32-ae68f9549b81
+  default_langcode: en
+  depends:
+    971d2c65-9480-4c12-972b-ee333a650a63: node
+    d897102d-4059-44c7-905a-500d9fde519d: node
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: 0011U00000QeV9kQAF
+  pass:
+    -
+      value: $S$EIdj6vR0cQ7peR07SLwVl2kPhIEeGBhuY5y7SbZYur/EJ92ymAk0
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: johndoe@gmail.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1691905306
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: johndoe@gmail.com
+  roles:
+    -
+      target_id: administrator
+  field_contact_id:
+    -
+      entity: 971d2c65-9480-4c12-972b-ee333a650a63
+  field_subscribed_to:
+    -
+      entity: d897102d-4059-44c7-905a-500d9fde519d

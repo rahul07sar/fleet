@@ -1,0 +1,22 @@
+uuid: 01a7d2dc-a503-4aef-a598-f575cb42dbf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+_core:
+  default_config_hash: 7qF6fnfH6gU-94_dAGcFMIJAPHUWLPUObmUz3jtnDTY
+id: node.field_memberships
+field_name: field_memberships
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

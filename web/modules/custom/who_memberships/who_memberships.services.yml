@@ -1,0 +1,4 @@
+services:
+  who_memberships.manager:
+    class: 'Drupal\who_memberships\WhoMembershipManager'
+    arguments: ['@http_client','@logger.factory', '@tempstore.private', '@config.factory', '@entity_type.manager', '@current_user', '@plugin.manager.mail', '@database', '@messenger']

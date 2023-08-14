@@ -1,0 +1,31 @@
+uuid: a7514e1a-270f-4632-a083-b1b46b86325c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_id_ref
+    - node.type.product
+    - node.type.subscription
+_core:
+  default_config_hash: 4AXwZBJUYQdhm1NGlnCZkAGIKiOXLTh5wHllWLdVLvQ
+id: node.subscription.field_product_id_ref
+field_name: field_product_id_ref
+entity_type: node
+bundle: subscription
+label: Product_ID
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

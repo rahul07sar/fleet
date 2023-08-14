@@ -1,0 +1,32 @@
+uuid: 71ecda61-6ac7-4c11-afba-31435cdec0a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_contact_id
+    - node.type.contact
+  module:
+    - user
+_core:
+  default_config_hash: sT2f-CHkok0ua5jGAWCM58gN8kz_IqRb46IvRjCGCTg
+id: user.user.field_contact_id
+field_name: field_contact_id
+entity_type: user
+bundle: user
+label: 'Contact ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      contact: contact
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

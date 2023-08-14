@@ -1,0 +1,23 @@
+uuid: 11be15ec-167d-46da-98e3-3ae8c65dc990
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lastname
+    - node.type.contact
+  module:
+    - text
+_core:
+  default_config_hash: EjP9j5iiV8m41i0riweyHo51o2GVPeqPToXf8OK_O9g
+id: node.contact.field_lastname
+field_name: field_lastname
+entity_type: node
+bundle: contact
+label: LastName
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

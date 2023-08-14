@@ -1,0 +1,21 @@
+uuid: 78e35670-9683-4b5f-83f1-3c6f35c150a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: C14tkmycu07-DrNYwVSMSuMTSPAe9bIDR3a5JnevfaQ
+id: node.field_wesbsite1
+field_name: field_wesbsite1
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

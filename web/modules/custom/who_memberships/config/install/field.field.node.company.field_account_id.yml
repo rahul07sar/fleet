@@ -1,0 +1,31 @@
+uuid: e5dc5943-aa1a-445b-9c44-52e167dd3be9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_account_id
+    - node.type.company
+_core:
+  default_config_hash: j-iobxkHiAldQgKq0o8EuLe7UjE63cR5-D8V_lvVkOE
+id: node.company.field_account_id
+field_name: field_account_id
+entity_type: node
+bundle: company
+label: 'Account ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

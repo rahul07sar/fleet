@@ -1,0 +1,10 @@
+uuid: 6f8009a0-3766-44cc-90e5-92cba59b2fb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.who
+label: WHO
+targetEntityType: user
+cache: true
